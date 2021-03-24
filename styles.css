@@ -2,6 +2,16 @@
     background-color: rgb(173, 169, 169);
     overflow: auto;
 }
+
+@media (max-width: 320px) { 
+    #leftCol {
+        width: 100%;
+    }
+
+    #midCol {
+        width: 100%;
+    }
+ }
 #midCol {
     background-color: rgb(226, 226, 226);
     overflow: auto;
